@@ -97,7 +97,6 @@ async function loadProjects() {
  <b>${p.title}</b><br>
  <small>${p.technologies}</small>
  <a href="${p.link}" target="_blank">${p.link}</a>
- </small><br>
  <small>${p.description}</small>
  </div>
  
