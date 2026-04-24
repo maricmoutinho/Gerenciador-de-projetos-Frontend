@@ -32,13 +32,13 @@ async function addProject() {
  
  loadProjects();
  
- // 🔥 LIMPAR CAMPOS
+ // LIMPAR CAMPOS
  document.getElementById("title").value = "";
  document.getElementById("description").value = "";
  document.getElementById("technologies").value = "";
  document.getElementById("link").value = "";
  
- // 🔥 ESCONDER FORMULÁRIO
+ // ESCONDER FORMULÁRIO
  document.getElementById("formContainer").style.display = "none";
  
  } catch (error) {
@@ -55,7 +55,7 @@ async function deleteProject(id) {
  
  loadProjects();
 
- // 🔥 RESETAR CAMPOS E MOSTRAR FORMULÁRIO
+ // RESETAR CAMPOS E MOSTRAR FORMULÁRIO
  document.getElementById("title").value = "";
  document.getElementById("description").value = "";
  document.getElementById("technologies").value = "";
@@ -77,7 +77,7 @@ function editProject(p) {
  
  editingId = p._id;
  
- // 🔥 MOSTRAR FORMULÁRIO
+ //  MOSTRAR FORMULÁRIO
  document.getElementById("formContainer").style.display = "block";
 }
  
@@ -96,6 +96,9 @@ async function loadProjects() {
  <div>
  <b>${p.title}</b><br>
  <small>${p.technologies}</small>
+ <a href="${p.link}" target="_blank">${p.link}</a>
+ </small><br>
+ <small>${p.description}</small>
  </div>
  
  <div class="actions">
