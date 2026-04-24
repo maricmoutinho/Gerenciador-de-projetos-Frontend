@@ -1,7 +1,7 @@
-##💻 Gerenciador de Projetos - Frontend
+💻 Gerenciador de Projetos - Frontend
 Este é o frontend da aplicação Gerenciador de Projetos, desenvolvido para oferecer uma interface de usuário intuitiva e responsiva. O projeto foi construído como um PWA (Progressive Web App), permitindo a instalação em dispositivos e o funcionamento básico em modo offline. A aplicação se comunica diretamente com uma API REST para realizar o gerenciamento persistente de dados.
 
-##🚀 Tecnologias Utilizadas
+🚀 Tecnologias Utilizadas
 HTML5 & CSS3: Estrutura e estilização com foco em responsividade para dispositivos móveis.
 
 JavaScript (Vanilla): Lógica para consumo de API, manipulação do DOM e gerenciamento de estados.
@@ -10,7 +10,7 @@ Service Workers: Implementação de cache para carregamento de recursos e suport
 
 Web Manifest: Configurações de identidade visual para transformar o site em um aplicativo instalável.
 
-##📦 Funcionalidades
+📦 Funcionalidades
 ✔ Cadastro de Projetos: Formulário para registrar título, tecnologias, links e descrições.
 
 ✔ Listagem Dinâmica: Exibição em tempo real dos projetos cadastrados via API.
@@ -23,7 +23,7 @@ Web Manifest: Configurações de identidade visual para transformar o site em um
 
 ✔ Instalabilidade: Manifesto configurado para permitir que o usuário adicione o app à sua tela inicial.
 
-##🧠 Estrutura do Projeto
+🧠 Estrutura do Projeto
 A organização dos arquivos segue uma estrutura limpa para o desenvolvimento web:
 
 Plaintext
@@ -43,7 +43,7 @@ URL Base: https://gerenciador-de-projetos-59so.onrender.com/api/projects
 
 As operações são realizadas através da Fetch API, utilizando os métodos GET, POST, PUT e DELETE para sincronizar as ações do usuário com o banco de dados.
 
-##👨‍💻 Autor
+👨‍💻 Autor
 Maria Clara Moutinho
 
-```Projeto desenvolvido para fins de gerenciamento e organização de portfólio acadêmico e profissional.
+Projeto desenvolvido para fins de gerenciamento e organização de portfólio acadêmico e profissional.
