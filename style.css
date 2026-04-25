@@ -109,7 +109,7 @@ li div:first-child {
  background: #a70707;
 }
 
-/* 📱 MOBILE */
+/* MOBILE */
 @media (max-width: 500px) {
  li {
   flex-direction: column;
